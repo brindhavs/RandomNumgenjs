@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Gaming</title>
+    <link rel="stylesheet" href="style.css">
+    <center><h1>Game</h1></center>
+    <center><h2>RANDOM NUMBER GENERATOR</h2></center>
+</head>
+<body>
+    <div class="container">
+            <center><h1>Number  Guessing  Application</h1></center>
+            <h3 class="b">Rules:</h3>
+            <ul class="rules">
+                <li>Select a number form 1 to 100 </li>
+                <li>Click on the check button</li> 
+                <li>It will give you a hint to guess the number correctly</li>
+                <li>Repeat the same step until you find the number</li>  
+             </ul> 
+             <center>
+            <input type="number" id="guessInput" min="1" max="100" placeholder="Enter your number">
+            <p id="message"></p>
+             <p id="attempts"></p>
+             </center>
+             <br><br>
+             <button id="checkButton">Check</button>
+             <button id="resetButton">Reset</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
